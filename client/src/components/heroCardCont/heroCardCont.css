@@ -1,0 +1,10 @@
+.heroCardCont {
+  width: 60vw;
+  height: 22vh;
+  /* background-color: burlywood; */
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,0 +1,134 @@
+.stockDetailTable {
+  width: 60vw;
+  height: 62vh;
+  box-shadow: rgb(0 0 0 / 47%) 1px 1px 6px 1px;
+  border-radius: 12px;
+}
+.sdtTop {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  background-color: blueviolet;
+  align-items: center;
+  border-radius: 12px 12px 0px 0px;
+}
+.sdtCenter {
+  width: 100%;
+  height: 65%;
+  overflow: hidden;
+}
+.sdtBottom {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  background-color: blueviolet;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.sdtHead {
+  font-family: system-ui;
+  color: white;
+  margin: 0;
+}
+.stdSearchCont {
+  background-color: white;
+  width: 37%;
+  height: 50%;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sdtSearch {
+  width: 20vw;
+  background: none;
+  height: 100%;
+  border: none;
+  padding-left: 0.5rem;
+}
+
+.sdtSearch:focus {
+  outline: none;
+}
+
+.paginationCont {
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.paginCount {
+  font-size: 0.8rem;
+  font-family: system-ui;
+  color: white;
+}
+.arrowBtnCont {
+  width: 5vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.paginBtn {
+  color: white;
+  cursor: pointer;
+}
+
+.stockListHead {
+  width: 100%;
+  height: 15%;
+  background-color: whitesmoke;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stockListRow {
+  width: 100%;
+  height: 16.2%;
+  background-color: whitesmoke;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stdElems {
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #303030;
+  font-family: system-ui;
+}
+.sdtCompNamePara {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.sdtSaveDataBtn {
+  border: none;
+  width: 7vw;
+  height: 5vh;
+  background-color: #00bcd4;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: system-ui;
+  box-shadow: rgb(0 0 0 / 47%) 1px 1px 3px 1px;
+}
+.viewDataBtn {
+  background-color: #13cd48;
+}

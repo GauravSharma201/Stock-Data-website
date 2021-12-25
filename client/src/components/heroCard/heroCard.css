@@ -1,0 +1,39 @@
+.heroCard {
+  width: 15vw;
+  height: 18vh;
+  padding: 0 0.5rem;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 47%) 1px 1px 6px -1px;
+}
+.heroCard:hover {
+  transform: scale(0.98);
+}
+.upperHalf {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroCardName {
+  margin: 0;
+  color: #303030;
+}
+.heroCardLogo {
+  width: 3vw;
+  height: 3vh;
+}
+.lowerHalf {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heroCardValue {
+  margin: 0;
+  color: #303030;
+}
